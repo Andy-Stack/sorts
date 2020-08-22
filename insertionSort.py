@@ -1,6 +1,6 @@
 def insertionSort(lst):
     for i in range (len(lst)):
-        tmp, j = list[i], i - 1
+        tmp, j = lst[i], i - 1
         while lst[j] and lst[j] > tmp:
             lst[j+1] = lst[j]
             j -= 1
